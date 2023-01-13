@@ -1,0 +1,205 @@
+body {
+    background: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+page {
+    background: ivory;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+}
+
+page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+}
+
+.parent {
+    display: flex;
+}
+
+.left {
+    width: 40%;
+    background: #1d2d47;
+    position: relative;
+    height: 29.7cm;
+}
+
+#display-img {
+    position: absolute;
+    margin: 30px 55px 10px 55px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: ivory;
+}
+
+
+input[type=file]::file-selector-button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 85px 55px 40px 45px;
+    border: none;
+    background: ivory;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(25, 26, 37);
+}
+
+input[type='file'] {
+    color: transparent;
+}
+  
+input[type=file]::file-selector-button:hover {
+    background: #babbbe;
+}
+
+#contact-lbl {
+    position: absolute;
+    color: ivory;
+    font-size: 25px;
+    margin-top: 280px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.left-line {
+    position: absolute;
+    width: 250px;
+    margin-left: 30px;
+}
+
+#contact-line {
+    margin-top: 315px;
+}
+
+.contact-details {
+    position: absolute;
+    width: 215px;
+    border-radius: 10px;
+    border: 0.1px solid ivory;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    color: ivory;
+    background-color: #1d2d47;
+}
+
+#mobile-no {
+    margin-top: 330px;
+    margin-left: 25px;
+}
+
+#email-id {
+    margin-top: 380px;
+    margin-left: 25px;
+}
+
+#address {
+    margin-top: 430px;
+    margin-left: 25px;
+}
+
+#skills-lbl {
+    position: absolute;
+    color: ivory;
+    font-size: 25px;
+    margin-top: 490px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#skills-line {
+    margin-top: 530px;
+}
+
+#skills-input {
+    position: absolute;
+    width: 100px;
+    border: 0.1px solid ivory;
+    color: ivory;
+    padding: 5px 20px 10px 20px;
+    border-radius: 10px;
+    background-color: #1d2d47;
+    font-size: 14px;
+    margin-top: 490px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+#skills-btn {
+    position: absolute;
+    width: 40px;
+    padding: 17px;
+    border-radius: 10px;
+    border: none;
+    background-color: ivory;
+    font-size: 10px;
+    margin-top: 490px;
+    margin-left: 245px;
+    margin-bottom: 10px;
+}
+
+#skills-btn:hover {
+    background-color: #babbbe;
+}
+
+#skills-ul {
+    position: absolute;
+    color: ivory;
+    font-size: 25px;
+    margin-top: 545px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    width: 215px;
+    height: 300px;
+    padding: 10px 30px 10px 10px;
+    background-color: #1d2d47;
+    font-size: 15px;
+    border: 0.1px solid ivory;
+    border-radius: 10px;
+    list-style-position: inside;
+}
+
+#soft-skills-lbl {
+    position: absolute;
+    color: ivory;
+    font-size: 25px;
+    margin-top: 885px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#soft-skills-line {
+    margin-top: 920px;
+}
+
+#soft-skills-input {
+    position: absolute;
+    color: ivory;
+    font-size: 25px;
+    margin-top: 935px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 235px;
+    padding: 10px;
+    background-color: #1d2d47;
+    font-size: 15px;
+    border: 0.1px solid ivory;
+    border-radius: 10px;
+}
+
+textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#name {
+    position: absolute;
+    margin-left: 335px;
+    margin-top: 30px;
+    background-color: ivory;
+    color: #181f2a;
+    width: 430px;
+    border: none;
+    font-size: 45px;
+    font-weight: bold;
+}
