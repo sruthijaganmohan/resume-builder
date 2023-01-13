@@ -67,7 +67,11 @@ input[type=file]::file-selector-button:hover {
     position: absolute;
     width: 250px;
     margin-left: 30px;
+    border: none;
+    height: 2px;
+    background-color: ivory;
 }
+
 
 #contact-line {
     margin-top: 315px;
@@ -202,4 +206,141 @@ textarea {
     border: none;
     font-size: 45px;
     font-weight: bold;
+    border: 2px solid #1d2d47;
+    border-radius: 10px;
+}
+
+#objective {
+    position: absolute;
+    margin-left: 335px;
+    margin-top: 150px;
+    background-color: ivory;
+    color: #1d2d47;
+    width: 430px;
+    border: none;
+    font-size: 15px;
+    border: 2px solid #1d2d47;
+    border-radius: 10px;
+}
+
+.right-line {
+    position: absolute;
+    width: 430px;
+    margin-left: 335px;
+    height: 2px;
+    background-color: #1d2d47;
+    border: none;
+}
+
+#education-lbl {
+    position: absolute;
+    color: #1d2d47;
+    font-size: 25px;
+    margin-top: 280px;
+    margin-left: 335px;
+}
+
+#education-line {
+    margin-top: 315px;
+}
+
+.education {
+    position: absolute;
+    color: #1d2d47;
+    margin-top: 330px;
+    margin-left: 335px;
+    width: 400px;
+    border-radius: 10px;
+    border: 0.1px solid #1d2d47;
+    padding: 10px 20px 10px 20px;
+    background-color: ivory;
+}
+
+#education-1-1 {
+    font-size: 25px;
+    margin-top: 330px;
+}
+
+#education-1-2 {
+    font-size: 15px;
+    margin-top: 385px;
+}
+
+#education-2-1 {
+    font-size: 25px;
+    margin-top: 435px;
+}
+
+#education-2-2 {
+    font-size: 15px;
+    margin-top: 490px;
+}
+
+#education-3-1 {
+    font-size: 25px;
+    margin-top: 545px;
+}
+
+#education-3-2 {
+    font-size: 15px;
+    margin-top: 600px;
+}
+
+#projects-lbl {
+    position: absolute;
+    color: #1d2d47;
+    font-size: 25px;
+    margin-top: 660px;
+    margin-left: 335px;
+}
+
+#projects-line {
+    margin-top: 700px;
+}
+
+.projects {
+    position: absolute;
+    color: #1d2d47;
+    margin-left: 335px;
+    width: 400px;
+    border-radius: 10px;
+    border: 0.1px solid #1d2d47;
+    padding: 10px 20px 10px 20px;
+    background-color: ivory;
+}
+
+#projects-1-1 {
+    font-size: 20px;
+    margin-top: 715px;
+}
+
+#projects-1-2 {
+    margin-top: 765px;
+}
+
+#projects-2-1 {
+    font-size: 20px;
+    margin-top: 905px;
+}
+
+#projects-2-2 {
+    margin-top: 955px;
+}
+
+.after-btn {
+    padding: 20px 30px 20px 30px;
+    background-color: #1d2d47;
+    color: ivory;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#done {
+    margin-right: 10px;
+}
+
+#generate-resume {
+    margin-left: 10px;
 }

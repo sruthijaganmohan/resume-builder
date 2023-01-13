@@ -32,3 +32,8 @@ function renderSkills() {
     }
     skillsUl.innerHTML = listItems  
 }
+
+const doneBtn = document.getElementById("done-btn")
+doneBtn.addEventListener("click", function() {
+    document.querySelector(".contact-details").style.outline = "none"
+})
